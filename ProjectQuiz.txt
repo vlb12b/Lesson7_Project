@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
 Author: 
 Date:   
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -12,6 +12,8 @@ Answer the following questions for Lesson 7 Assignment
 Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
+Becuse html reads codefrom top to bottom, so you want to unsure the codeislinked to the 
+jquery library first so it can perorm the action you giveit
 
 
 
@@ -20,7 +22,7 @@ Why should you ensure that the script element that links to the jQuery library f
 Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
-
+Becuse it will slow down load time and the jQueary library is large 
 
 
 
@@ -30,6 +32,7 @@ Why should you avoid including jQuery in a project if you don't need it?
 Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
+$
 
 
 
@@ -39,3 +42,8 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+CDN's alow yourfiles to be distributed across multiple systems and servers
+1. Files can be pre-cached so when you visit the site again or another one of the CDN sites they will already be downloaded
+2. CDN's allow companies to view uage reports, helpful troubleshooting and website  analytics
+3. CDN's have built in version control
+4. CDN files are hosted on a different domains. So you can download four differnt files at one time, increasing efficancy 
